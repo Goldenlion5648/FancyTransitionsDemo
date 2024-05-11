@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://i0yn6ccuplnt"]
+
+[ext_resource type="Texture2D" uid="uid://8cptek7nybt6" path="res://dark_blue_godot.png" id="1_c17ex"]
+[ext_resource type="Texture2D" uid="uid://pesugmqx2hbw" path="res://pink_purple_gradient.png" id="1_d78iu"]
+
+[node name="main1" type="Node2D"]
+
+[node name="background" type="Sprite2D" parent="."]
+texture = ExtResource("1_d78iu")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+scale = Vector2(2.49223, 2.49223)
+texture = ExtResource("1_c17ex")
+
+[node name="Camera2D" type="Camera2D" parent="."]

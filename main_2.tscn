@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://cxkng204q6oeh"]
+
+[ext_resource type="Texture2D" uid="uid://mtin2bajdk41" path="res://pink_godot.png" id="1_7m77s"]
+[ext_resource type="Texture2D" uid="uid://c5if01bc5o5po" path="res://blue_green_gradient2.png" id="1_vql7a"]
+[ext_resource type="Texture2D" uid="uid://cn7imj3hd4xyk" path="res://red_godot.png" id="2_hd7ro"]
+[ext_resource type="Texture2D" uid="uid://8cptek7nybt6" path="res://dark_blue_godot.png" id="3_blcxv"]
+
+[node name="main2" type="Node2D"]
+
+[node name="background" type="Sprite2D" parent="."]
+texture = ExtResource("1_vql7a")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-351, -110)
+scale = Vector2(1.68632, 1.68632)
+texture = ExtResource("1_7m77s")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(360, -112)
+rotation = -0.253073
+scale = Vector2(1.68632, 1.68632)
+texture = ExtResource("2_hd7ro")
+flip_h = true
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(17, 128)
+scale = Vector2(1.68632, 1.68632)
+texture = ExtResource("3_blcxv")
+
+[node name="Camera2D" type="Camera2D" parent="."]
