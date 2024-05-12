@@ -9,7 +9,8 @@
 texture = ExtResource("1_d78iu")
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
-scale = Vector2(2.49223, 2.49223)
+position = Vector2(-348, -2)
+scale = Vector2(1.73511, 1.73511)
 texture = ExtResource("1_c17ex")
 
 [node name="Camera2D" type="Camera2D" parent="."]
